@@ -1,6 +1,6 @@
 const prompt =require("prompt-sync")();
 
-const year = prompt("Enter Input Year:");
+const month =prompt("Enter the Month:");
 
 if(year % 4==0){
     console.log("leap year")
