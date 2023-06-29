@@ -7,14 +7,13 @@ let output = "";
 for (let i = 1; i <= N; i+=1) {
 
     for (let j = 1; j <= N - i; j+=1)
-  
-    for (let X = 1; X <= i; X+=1)
      {
        output =output+ "    "
-   {
-    output =output+ j
   }
-}
+  for (let X = 1; X <= i; X+=1) {
+    output =output+ X+"   "
+  }
+  
   output+=  "\n";
 }
 
