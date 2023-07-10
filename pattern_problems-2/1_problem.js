@@ -1,15 +1,15 @@
 const prompt =require("prompt-sync")();
 
-let N =5
+const N =prompt("Enter Input NO:");
 
 let output=""
 
-for(let i = 1; i <= 5; i = i + 1)
+for(let i = 1; i <= N; i = i + 1)
 {
-    for(let j = 1; j <= 5; j = j + 1){
+    for(let j = 1; j <= N; j = j + 1){
 
-    output = output + i + " "
+    output = output + i + " ";
     }
-    output = output +"\n"
+    output = output +"\n";
 }
 console.log(output)
